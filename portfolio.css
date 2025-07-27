@@ -43,7 +43,6 @@ body {
     max-height: 600px;
     background: #000000;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Debug border */
 }
 
 /* Letter Styling */
@@ -166,7 +165,7 @@ body {
     }
 
     .name {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .social-links {
@@ -217,21 +216,22 @@ body {
     }
 
     .animation-controls {
-        gap: 12px;
+        gap: 20px;
     }
 
     .name {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .social-links {
-        gap: 12px;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .top-row {
-        gap: 16px;
+        width:100%;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
 }
 
@@ -259,7 +259,7 @@ body {
     }
 
     .animation-controls {
-        gap: 8px;
+        gap: 20px;
     }
 }
 
