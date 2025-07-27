@@ -20,7 +20,7 @@ body {
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     background: #000000;
 }
@@ -204,6 +204,9 @@ body {
 @media (max-width: 480px) {
     .canvas-area {
         padding: 24px;
+    }
+    .portfolio-container {
+        height:90vh;
     }
 
     .letter {
